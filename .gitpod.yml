@@ -15,7 +15,7 @@ tasks:
     
     
   - name: Dir
-    init: cd solana-nft && solana-keygen new --outfile ./my-keypair.json
+    command: solana-keygen new --outfile ./solana-nft/my-keypair.json
     
     
     
